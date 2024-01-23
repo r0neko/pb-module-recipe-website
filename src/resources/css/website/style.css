@@ -1,0 +1,43 @@
+.container.page-recipe {
+    max-width: 800px;
+}
+
+.container.page-home .recipes-container .card .card-img-top {
+    height: 256px;
+    object-fit: cover;
+}
+
+.hero-slider {
+    position: relative;
+    height: 256px;
+    overflow: hidden;
+    color: #fff;
+}
+
+.hero-slider img {
+    width: 100%;
+    height: 100%;
+    filter: blur(8px);
+    object-fit: cover;
+}
+
+.hero-slider .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-slider h1 {
+    font-size: 48px;
+}
+
+.hero-slider h1, .hero-slider p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

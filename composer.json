@@ -1,0 +1,20 @@
+{
+    "name": "r0neko/recipe-website",
+    "description": "A simple recipe website implementation using the PookieBoard CMS.",
+    "version": "1.0.0",
+    "type": "pookieboard-module",
+    "autoload": {
+        "psr-4": {
+            "RNRecipeWebsite\\": "src/"
+        }
+    },
+    "extra": {
+        "module-class": "RNRecipeWebsite\\RNRecipeWebsite",
+        "label": {
+            "en-GB": "Recipe Website"
+        },
+        "description": {
+            "en-GB": "A simple recipe website implementation using the PookieBoard CMS."
+        }
+    }
+}
